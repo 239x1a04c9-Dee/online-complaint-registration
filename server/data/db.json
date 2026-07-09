@@ -1,0 +1,186 @@
+{
+  "users": [
+    {
+      "_id": "h5w227tyls45wnpt0u1plk",
+      "createdAt": "2026-07-08T16:53:04.081Z",
+      "name": "mohan kumar",
+      "email": "mohancrje2023@gmail.com",
+      "password": "$2a$10$jE8YSfggvIpW.u3InWFmu.qojT5a2rqgiJPDsT4SvDeQDk8DAM8I6",
+      "role": "citizen",
+      "department": ""
+    },
+    {
+      "_id": "sp2iuqr23qd2uv1sp6lk6",
+      "createdAt": "2026-07-08T17:19:45.502Z",
+      "name": "rahul",
+      "email": "239x1ao4c9@gprec.ac.in",
+      "password": "$2a$10$XMCyNFVnHvo8rPMREf1oj.f.TKLiKzL/uwBp6M80tv/eJvgkQ.A/2",
+      "role": "citizen",
+      "department": ""
+    },
+    {
+      "_id": "m32w0oh8tjr7y5u8yrg8g",
+      "createdAt": "2026-07-08T17:21:49.208Z",
+      "name": "gdxgtdgxdgdxg",
+      "email": "mohhancrje2023@gmail.com",
+      "password": "$2a$10$sKp1m5Ns6ur1zi/VffnACut1ckBSQ2a9REWRELW3HfA0ukgalPoY6",
+      "role": "admin",
+      "department": "Water Supply Authority"
+    },
+    {
+      "_id": "y8jaqeughudxtypp7upqb",
+      "createdAt": "2026-07-08T17:34:45.260Z",
+      "name": "Rtrrju",
+      "email": "2ftggh@gmail.com",
+      "password": "$2a$10$NlXYnHxj5IqtNRZvcQwuvO5RdeznFS2QwR.erE2V5.gfM3hp1sIcu",
+      "role": "citizen",
+      "department": ""
+    }
+  ],
+  "complaints": [
+    {
+      "_id": "to29binutpkblu3aub13l",
+      "createdAt": "2026-07-08T16:53:46.351Z",
+      "updatedAt": "2026-07-08T16:53:46.351Z",
+      "status": "Received",
+      "timeline": [
+        {
+          "status": "Received",
+          "timestamp": "2026-07-08T16:53:46.351Z",
+          "message": "Grievance successfully submitted and registered."
+        }
+      ],
+      "messages": [],
+      "assignedDepartment": "Pending Assignment",
+      "citizen": "h5w227tyls45wnpt0u1plk",
+      "citizenName": "mohan kumar",
+      "title": "fdfdfdffff",
+      "description": "dsdfsfsdfsdfsf",
+      "category": "electricity problem",
+      "priority": "Low"
+    },
+    {
+      "_id": "deltntywxb4sa0agfq2cxd",
+      "createdAt": "2026-07-08T16:54:22.457Z",
+      "updatedAt": "2026-07-08T16:55:26.825Z",
+      "status": "Received",
+      "timeline": [
+        {
+          "status": "Received",
+          "timestamp": "2026-07-08T16:54:22.457Z",
+          "message": "Grievance successfully submitted and registered."
+        }
+      ],
+      "messages": [
+        {
+          "_id": "x2kszzfr",
+          "senderId": "h5w227tyls45wnpt0u1plk",
+          "senderName": "mohan kumar",
+          "senderRole": "citizen",
+          "text": "ihiohiiohion",
+          "timestamp": "2026-07-08T16:55:26.824Z"
+        }
+      ],
+      "assignedDepartment": "Pending Assignment",
+      "citizen": "h5w227tyls45wnpt0u1plk",
+      "citizenName": "mohan kumar",
+      "title": "wrfefefef",
+      "description": "svsrvsvsrcf",
+      "category": "waste management",
+      "priority": "High"
+    },
+    {
+      "_id": "6k5es3hsje5mopfq3c853m",
+      "createdAt": "2026-07-08T17:20:23.684Z",
+      "updatedAt": "2026-07-08T17:20:23.684Z",
+      "status": "Received",
+      "timeline": [
+        {
+          "status": "Received",
+          "timestamp": "2026-07-08T17:20:23.684Z",
+          "message": "Grievance successfully submitted and registered."
+        }
+      ],
+      "messages": [],
+      "assignedDepartment": "Pending Assignment",
+      "citizen": "sp2iuqr23qd2uv1sp6lk6",
+      "citizenName": "rahul",
+      "title": "xdgtdxydxgxdg",
+      "description": "xdgxdgdxdxgxdg",
+      "category": "water supply",
+      "priority": "Low"
+    },
+    {
+      "_id": "tj5hb9ykef7yvltl279u",
+      "createdAt": "2026-07-08T17:20:43.583Z",
+      "updatedAt": "2026-07-08T17:22:40.715Z",
+      "status": "Resolved",
+      "timeline": [
+        {
+          "status": "Received",
+          "timestamp": "2026-07-08T17:20:43.583Z",
+          "message": "Grievance successfully submitted and registered."
+        },
+        {
+          "_id": "ak8w7cto",
+          "status": "Resolved",
+          "timestamp": "2026-07-08T17:22:40.712Z",
+          "message": "Status updated to Resolved."
+        }
+      ],
+      "messages": [],
+      "assignedDepartment": "Water Supply Authority",
+      "citizen": "sp2iuqr23qd2uv1sp6lk6",
+      "citizenName": "rahul",
+      "title": "zdgdxgsfsfszzf",
+      "description": "fzsfffffszfsfzsf",
+      "category": "sewage block",
+      "priority": "High"
+    },
+    {
+      "_id": "05f91hmr81jmbio7kuip5y8",
+      "createdAt": "2026-07-08T17:35:09.937Z",
+      "updatedAt": "2026-07-08T17:39:07.739Z",
+      "status": "Under Investigation",
+      "timeline": [
+        {
+          "status": "Received",
+          "timestamp": "2026-07-08T17:35:09.937Z",
+          "message": "Grievance successfully submitted and registered."
+        },
+        {
+          "_id": "ljw3wfgc",
+          "status": "Received",
+          "timestamp": "2026-07-08T17:37:43.194Z",
+          "message": "Status updated to Received."
+        },
+        {
+          "_id": "syxzi7z7",
+          "status": "Resolved",
+          "timestamp": "2026-07-08T17:38:05.342Z",
+          "message": "Status updated to Resolved."
+        },
+        {
+          "_id": "lkqcby5r",
+          "status": "Received",
+          "timestamp": "2026-07-08T17:38:44.022Z",
+          "message": "Status updated to Received."
+        },
+        {
+          "_id": "a0m2j4bs",
+          "status": "Under Investigation",
+          "timestamp": "2026-07-08T17:39:07.738Z",
+          "message": "Status updated to Under Investigation."
+        }
+      ],
+      "messages": [],
+      "assignedDepartment": "Electricity & Power Board",
+      "citizen": "y8jaqeughudxtypp7upqb",
+      "citizenName": "Rtrrju",
+      "title": "V6dmu umm",
+      "description": "Gl jfu",
+      "category": "electricity problem",
+      "priority": "High"
+    }
+  ]
+}
